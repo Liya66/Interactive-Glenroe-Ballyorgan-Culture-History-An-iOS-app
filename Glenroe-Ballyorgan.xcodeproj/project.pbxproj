@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0779ED2CAD81FD003AA2DF /* Robin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6A0779EC2CAD81FD003AA2DF /* Robin.gpx */; };
+		6A0779F22CADFFD6003AA2DF /* ARViewController_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0779F12CADFFD6003AA2DF /* ARViewController_tests.swift */; };
+		6A0779F42CAE06DB003AA2DF /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0779F32CAE06DB003AA2DF /* ARKit.framework */; };
+		6A0779F52CAE0D6F003AA2DF /* Barn_owl.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CE012C9E47B600297558 /* Barn_owl.scn */; };
+		6A0779F62CAE0D73003AA2DF /* Robin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A3717882CA594180060FD8D /* Robin.scn */; };
+		6A0779F72CAE0D76003AA2DF /* Bird.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A3717862CA593A70060FD8D /* Bird.scn */; };
+		6A0779F92CAE20FB003AA2DF /* AudioTourFunctions_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0779F82CAE20FB003AA2DF /* AudioTourFunctions_tests.swift */; };
+		6A0779FB2CAE3E50003AA2DF /* test_audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A27CAC62C58585B0006AC47 /* test_audio.wav */; };
+		6A0779FD2CAE47F6003AA2DF /* AppIntegration_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0779FC2CAE47F6003AA2DF /* AppIntegration_tests.swift */; };
+		6A2115DF2CB0714E0088401D /* AudioLocation_welcome.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6A2115DE2CB0714E0088401D /* AudioLocation_welcome.gpx */; };
+		6A2115E02CB0714E0088401D /* AudioLocation_welcome.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6A2115DE2CB0714E0088401D /* AudioLocation_welcome.gpx */; };
+		6A27CAC42C5853900006AC47 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27CAC32C5853900006AC47 /* CustomTabBarController.swift */; };
+		6A27CAC72C58585B0006AC47 /* test_audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A27CAC62C58585B0006AC47 /* test_audio.wav */; };
+		6A27CACB2C585E810006AC47 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A27CACA2C585E810006AC47 /* meow.mp3 */; };
+		6A28CDEE2C9B310500297558 /* ContentImagesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28CDED2C9B310500297558 /* ContentImagesViewCell.swift */; };
+		6A28CDF52C9CBA9500297558 /* Local_Sites_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDF12C9CBA9500297558 /* Local_Sites_image.png */; };
+		6A28CDF62C9CBA9500297558 /* Churches_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDF22C9CBA9500297558 /* Churches_image.png */; };
+		6A28CDF72C9CBA9500297558 /* Graveyards_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDF32C9CBA9500297558 /* Graveyards_image.png */; };
+		6A28CDF82C9CBA9500297558 /* History_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDF42C9CBA9500297558 /* History_image.png */; };
+		6A28CDFA2C9E25C400297558 /* Darragh Bridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDF92C9E25C400297558 /* Darragh Bridge.png */; };
+		6A28CDFC2C9E358700297558 /* Robin.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDFB2C9E358700297558 /* Robin.usdz */; };
+		6A28CE002C9E47A300297558 /* Barn_owl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CDFF2C9E47A300297558 /* Barn_owl.usdz */; };
+		6A28CE022C9E47B600297558 /* Barn_owl.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CE012C9E47B600297558 /* Barn_owl.scn */; };
+		6A28CE062C9E4D0400297558 /* Bird.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6A28CE052C9E4D0400297558 /* Bird.usdz */; };
+		6A3717872CA593A70060FD8D /* Bird.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A3717862CA593A70060FD8D /* Bird.scn */; };
+		6A3717892CA594180060FD8D /* Robin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6A3717882CA594180060FD8D /* Robin.scn */; };
+		6A37178B2CA80D020060FD8D /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37178A2CA80D020060FD8D /* RouteManager.swift */; };
+		6A37178F2CA827AF0060FD8D /* route.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 6A37178E2CA812900060FD8D /* route.geojson */; };
+		6A3717902CA832DE0060FD8D /* AudioTourRoute.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E7C2CA4483F0057EA95 /* AudioTourRoute.geojson */; };
+		6A3717922CA836F50060FD8D /* BaseMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717912CA836F50060FD8D /* BaseMapViewController.swift */; };
+		6A3717942CA840C30060FD8D /* VoiceControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717932CA840C30060FD8D /* VoiceControlManager.swift */; };
+		6A3717962CA8411A0060FD8D /* AudioTourViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717952CA8411A0060FD8D /* AudioTourViewController+UISetup.swift */; };
+		6A3717982CA841450060FD8D /* FirebaseDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717972CA841450060FD8D /* FirebaseDownloadManager.swift */; };
+		6A37179C2CA84D0A0060FD8D /* AudioLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37179B2CA84D0A0060FD8D /* AudioLocationData.swift */; };
+		6A37179E2CA8555E0060FD8D /* ContentDetailsViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37179D2CA8555E0060FD8D /* ContentDetailsViewController+UISetup.swift */; };
+		6A3717A02CA856B80060FD8D /* BirdLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37179F2CA856B80060FD8D /* BirdLocationData.swift */; };
+		6A6510AB2C86464D000C31ED /* ContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6510AA2C86464D000C31ED /* ContentDetailsViewController.swift */; };
+		6A6510AE2C864A33000C31ED /* history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6510AD2C864A33000C31ED /* history.jpg */; };
+		6A6510B02C8776EF000C31ED /* AudioTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6510AF2C8776EF000C31ED /* AudioTourViewController.swift */; };
+		6A6EC7A02C946F1600291292 /* BallyhourAudioTourMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EC79F2C946F1600291292 /* BallyhourAudioTourMapViewController.swift */; };
+		6A6EC7A42C9471E900291292 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6EC7A32C9471E900291292 /* MapboxMaps */; };
+		6A719B802C5ECB9500FD38C4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A719B7F2C5ECB9500FD38C4 /* MapViewController.swift */; };
+		6A719B842C5ED09500FD38C4 /* ContentLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A719B832C5ED09500FD38C4 /* ContentLibraryViewController.swift */; };
+		6A719B882C5ED70000FD38C4 /* StoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A719B872C5ED70000FD38C4 /* StoryManager.swift */; };
+		6A719B942C6180C500FD38C4 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A719B922C61802400FD38C4 /* ARKit.framework */; };
+		6A719B982C61831100FD38C4 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A719B972C61831100FD38C4 /* AnnotationView.swift */; };
+		6A72A2192C9F797B00780BDB /* InteractiveExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72A2182C9F797B00780BDB /* InteractiveExperienceViewController.swift */; };
+		6A7841EB2CAE4FCC0058FB6F /* FirebaseIntegratedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7841EA2CAE4FCC0058FB6F /* FirebaseIntegratedTests.swift */; };
+		6A82ED052C6BC56400B31C6E /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A82ED042C6BC56400B31C6E /* ARViewController.swift */; };
+		6A82ED152C84E09500B31C6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A82ED142C84E09500B31C6E /* LoginViewController.swift */; };
+		6A82ED192C84E0BA00B31C6E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A82ED182C84E0BA00B31C6E /* SignUpViewController.swift */; };
+		6A82ED512C84F41900B31C6E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6A82ED502C84F41900B31C6E /* FirebaseAnalytics */; };
+		6A82ED532C84F41900B31C6E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A82ED522C84F41900B31C6E /* FirebaseAuth */; };
+		6A82ED572C84F98E00B31C6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A82ED562C84F98E00B31C6E /* GoogleService-Info.plist */; };
+		6A82ED5A2C84FAE700B31C6E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6A82ED592C84FAE700B31C6E /* GoogleSignIn */; };
+		6A82ED5C2C84FAE700B31C6E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6A82ED5B2C84FAE700B31C6E /* GoogleSignInSwift */; };
+		6A93002D2C8F4D96008D2A20 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93002C2C8F4D96008D2A20 /* FirebaseAnalytics */; };
+		6A93002F2C8F4D96008D2A20 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93002E2C8F4D96008D2A20 /* FirebaseAnalyticsOnDeviceConversion */; };
+		6A9300312C8F4D96008D2A20 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300302C8F4D96008D2A20 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		6A9300332C8F4D96008D2A20 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300322C8F4D96008D2A20 /* FirebaseAppCheck */; };
+		6A9300352C8F4D96008D2A20 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300342C8F4D96008D2A20 /* FirebaseAppDistribution-Beta */; };
+		6A9300372C8F4D96008D2A20 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300362C8F4D96008D2A20 /* FirebaseAuth */; };
+		6A9300392C8F4D96008D2A20 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300382C8F4D96008D2A20 /* FirebaseAuthCombine-Community */; };
+		6A93003B2C8F4D96008D2A20 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93003A2C8F4D96008D2A20 /* FirebaseCrashlytics */; };
+		6A93003D2C8F4D96008D2A20 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93003C2C8F4D96008D2A20 /* FirebaseDatabase */; };
+		6A93003F2C8F4D96008D2A20 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93003E2C8F4D96008D2A20 /* FirebaseDynamicLinks */; };
+		6A9300412C8F4D96008D2A20 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300402C8F4D96008D2A20 /* FirebaseFirestore */; };
+		6A9300432C8F4D96008D2A20 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300422C8F4D96008D2A20 /* FirebaseFirestoreCombine-Community */; };
+		6A9300452C8F4D96008D2A20 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300442C8F4D96008D2A20 /* FirebaseFunctions */; };
+		6A9300472C8F4D96008D2A20 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300462C8F4D96008D2A20 /* FirebaseFunctionsCombine-Community */; };
+		6A9300492C8F4D96008D2A20 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300482C8F4D96008D2A20 /* FirebaseInAppMessaging-Beta */; };
+		6A93004B2C8F4D96008D2A20 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93004A2C8F4D96008D2A20 /* FirebaseInstallations */; };
+		6A93004D2C8F4D96008D2A20 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93004C2C8F4D96008D2A20 /* FirebaseMLModelDownloader */; };
+		6A93004F2C8F4D96008D2A20 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6A93004E2C8F4D96008D2A20 /* FirebaseMessaging */; };
+		6A9300512C8F4D96008D2A20 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300502C8F4D96008D2A20 /* FirebasePerformance */; };
+		6A9300532C8F4D96008D2A20 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300522C8F4D96008D2A20 /* FirebaseRemoteConfig */; };
+		6A9300552C8F4D96008D2A20 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300542C8F4D96008D2A20 /* FirebaseStorage */; };
+		6A9300572C8F4D96008D2A20 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300562C8F4D96008D2A20 /* FirebaseStorageCombine-Community */; };
+		6A9300592C8F4D96008D2A20 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9300582C8F4D96008D2A20 /* FirebaseVertexAI-Preview */; };
+		6AA1BAFD2C99F0BE00CC3B2D /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1BAFC2C99F0BE00CC3B2D /* EventData.swift */; };
+		6AA1BAFF2C99F0DF00CC3B2D /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1BAFE2C99F0DF00CC3B2D /* EventCell.swift */; };
+		6AA1BB012C99F16200CC3B2D /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1BB002C99F16200CC3B2D /* EventsViewController.swift */; };
+		6AA1BB032C99F1CE00CC3B2D /* EventsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1BB022C99F1CE00CC3B2D /* EventsWebViewController.swift */; };
+		6AA86E6D2CA206120057EA95 /* Glenroechurch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E6C2CA206120057EA95 /* Glenroechurch.jpg */; };
+		6AA86E6F2CA206E20057EA95 /* Ballyorganchurch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E6E2CA206E20057EA95 /* Ballyorganchurch.jpg */; };
+		6AA86E712CA207E40057EA95 /* darragh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E702CA207E40057EA95 /* darragh.jpg */; };
+		6AA86E732CA208E30057EA95 /* Darragh Graveyard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E722CA208E30057EA95 /* Darragh Graveyard.jpg */; };
+		6AA86E752CA209990057EA95 /* Abbey Graveyard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E742CA209990057EA95 /* Abbey Graveyard.jpeg */; };
+		6AA86E772CA20C300057EA95 /* graveyardGlenroe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E762CA20C300057EA95 /* graveyardGlenroe.jpg */; };
+		6AA86E792CA20D0F0057EA95 /* Holy Well.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E782CA20D0F0057EA95 /* Holy Well.jpg */; };
+		6AA86E7B2CA20DD00057EA95 /* Abbey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AA86E7A2CA20DD00057EA95 /* Abbey.jpg */; };
+		6AC2E2932CAD75EB006CF274 /* bluebird.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6AC2E2922CAD75EB006CF274 /* bluebird.gpx */; };
+		6AD344C22CA0908A00903CF0 /* BDC.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6AD344C12CA0908A00903CF0 /* BDC.jpeg */; };
+		6AD344C42CA0E62900903CF0 /* myIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AD344C32CA0E62900903CF0 /* myIcon.jpg */; };
+		6AD344C62CA0E64D00903CF0 /* myIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD344C52CA0E64D00903CF0 /* myIcon.png */; };
+		6AE148222CACE50E00C2C474 /* Glenroe_Ballyorgan_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE148212CACE50E00C2C474 /* Glenroe_Ballyorgan_tests.swift */; };
+		6AE148292CACE56C00C2C474 /* VoiceControlManager_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE148282CACE56C00C2C474 /* VoiceControlManager_Tests.swift */; };
+		6AE1482C2CAD51AE00C2C474 /* AudioLocation-Emly.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6AE1482B2CAD51AE00C2C474 /* AudioLocation-Emly.gpx */; };
+		6AF0852A2C52C912006A8953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF085292C52C912006A8953 /* AppDelegate.swift */; };
+		6AF0852C2C52C912006A8953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF0852B2C52C912006A8953 /* SceneDelegate.swift */; };
+		6AF085312C52C912006A8953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF0852F2C52C912006A8953 /* Main.storyboard */; };
+		6AF085332C52C913006A8953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF085322C52C913006A8953 /* Assets.xcassets */; };
+		6AF085362C52C913006A8953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF085342C52C913006A8953 /* LaunchScreen.storyboard */; };
+		6AFC63C82C9355DB00179DB4 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC63C72C9355DB00179DB4 /* UserInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE148232CACE50E00C2C474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF0851E2C52C912006A8953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF085252C52C912006A8953;
+			remoteInfo = "Glenroe-Ballyorgan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0779EC2CAD81FD003AA2DF /* Robin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Robin.gpx; sourceTree = "<group>"; };
+		6A0779F12CADFFD6003AA2DF /* ARViewController_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController_tests.swift; sourceTree = "<group>"; };
+		6A0779F32CAE06DB003AA2DF /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A0779F82CAE20FB003AA2DF /* AudioTourFunctions_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTourFunctions_tests.swift; sourceTree = "<group>"; };
+		6A0779FA2CAE2B08003AA2DF /* Glenroe-Ballyorgan-tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Glenroe-Ballyorgan-tests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6A0779FC2CAE47F6003AA2DF /* AppIntegration_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntegration_tests.swift; sourceTree = "<group>"; };
+		6A2115DE2CB0714E0088401D /* AudioLocation_welcome.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AudioLocation_welcome.gpx; sourceTree = "<group>"; };
+		6A2115E12CB071B90088401D /* Location_Bruff.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location_Bruff.gpx; sourceTree = "<group>"; };
+		6A27CAC32C5853900006AC47 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		6A27CAC62C58585B0006AC47 /* test_audio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test_audio.wav; sourceTree = "<group>"; };
+		6A27CACA2C585E810006AC47 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
+		6A28CDED2C9B310500297558 /* ContentImagesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentImagesViewCell.swift; sourceTree = "<group>"; };
+		6A28CDF12C9CBA9500297558 /* Local_Sites_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Local_Sites_image.png; sourceTree = "<group>"; };
+		6A28CDF22C9CBA9500297558 /* Churches_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Churches_image.png; sourceTree = "<group>"; };
+		6A28CDF32C9CBA9500297558 /* Graveyards_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graveyards_image.png; sourceTree = "<group>"; };
+		6A28CDF42C9CBA9500297558 /* History_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = History_image.png; sourceTree = "<group>"; };
+		6A28CDF92C9E25C400297558 /* Darragh Bridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darragh Bridge.png"; sourceTree = "<group>"; };
+		6A28CDFB2C9E358700297558 /* Robin.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Robin.usdz; sourceTree = "<group>"; };
+		6A28CDFF2C9E47A300297558 /* Barn_owl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Barn_owl.usdz; sourceTree = "<group>"; };
+		6A28CE012C9E47B600297558 /* Barn_owl.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Barn_owl.scn; sourceTree = "<group>"; };
+		6A28CE052C9E4D0400297558 /* Bird.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bird.usdz; sourceTree = "<group>"; };
+		6A28CE092C9E50A300297558 /* Glenroe-Ballyorgan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Glenroe-Ballyorgan.xctestplan"; sourceTree = "<group>"; };
+		6A28CE0A2C9E539A00297558 /* birds of prey location-barn owl.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "birds of prey location-barn owl.gpx"; sourceTree = "<group>"; };
+		6A3717862CA593A70060FD8D /* Bird.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Bird.scn; sourceTree = "<group>"; };
+		6A3717882CA594180060FD8D /* Robin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Robin.scn; sourceTree = "<group>"; };
+		6A37178A2CA80D020060FD8D /* RouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+		6A37178E2CA812900060FD8D /* route.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = route.geojson; sourceTree = "<group>"; };
+		6A3717912CA836F50060FD8D /* BaseMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMapViewController.swift; sourceTree = "<group>"; };
+		6A3717932CA840C30060FD8D /* VoiceControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceControlManager.swift; sourceTree = "<group>"; };
+		6A3717952CA8411A0060FD8D /* AudioTourViewController+UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioTourViewController+UISetup.swift"; sourceTree = "<group>"; };
+		6A3717972CA841450060FD8D /* FirebaseDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDownloadManager.swift; sourceTree = "<group>"; };
+		6A37179B2CA84D0A0060FD8D /* AudioLocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLocationData.swift; sourceTree = "<group>"; };
+		6A37179D2CA8555E0060FD8D /* ContentDetailsViewController+UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentDetailsViewController+UISetup.swift"; sourceTree = "<group>"; };
+		6A37179F2CA856B80060FD8D /* BirdLocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdLocationData.swift; sourceTree = "<group>"; };
+		6A6510AA2C86464D000C31ED /* ContentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailsViewController.swift; sourceTree = "<group>"; };
+		6A6510AD2C864A33000C31ED /* history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = history.jpg; sourceTree = "<group>"; };
+		6A6510AF2C8776EF000C31ED /* AudioTourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTourViewController.swift; sourceTree = "<group>"; };
+		6A6EC79F2C946F1600291292 /* BallyhourAudioTourMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallyhourAudioTourMapViewController.swift; sourceTree = "<group>"; };
+		6A719B7F2C5ECB9500FD38C4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6A719B832C5ED09500FD38C4 /* ContentLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLibraryViewController.swift; sourceTree = "<group>"; };
+		6A719B872C5ED70000FD38C4 /* StoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryManager.swift; sourceTree = "<group>"; };
+		6A719B922C61802400FD38C4 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		6A719B972C61831100FD38C4 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		6A72A2182C9F797B00780BDB /* InteractiveExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveExperienceViewController.swift; sourceTree = "<group>"; };
+		6A7841EA2CAE4FCC0058FB6F /* FirebaseIntegratedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseIntegratedTests.swift; sourceTree = "<group>"; };
+		6A82ED042C6BC56400B31C6E /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		6A82ED142C84E09500B31C6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6A82ED182C84E0BA00B31C6E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A82ED562C84F98E00B31C6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AA1BAFC2C99F0BE00CC3B2D /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		6AA1BAFE2C99F0DF00CC3B2D /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		6AA1BB002C99F16200CC3B2D /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		6AA1BB022C99F1CE00CC3B2D /* EventsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsWebViewController.swift; sourceTree = "<group>"; };
+		6AA86E6C2CA206120057EA95 /* Glenroechurch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glenroechurch.jpg; sourceTree = "<group>"; };
+		6AA86E6E2CA206E20057EA95 /* Ballyorganchurch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ballyorganchurch.jpg; sourceTree = "<group>"; };
+		6AA86E702CA207E40057EA95 /* darragh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darragh.jpg; sourceTree = "<group>"; };
+		6AA86E722CA208E30057EA95 /* Darragh Graveyard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Darragh Graveyard.jpg"; sourceTree = "<group>"; };
+		6AA86E742CA209990057EA95 /* Abbey Graveyard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abbey Graveyard.jpeg"; sourceTree = "<group>"; };
+		6AA86E762CA20C300057EA95 /* graveyardGlenroe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graveyardGlenroe.jpg; sourceTree = "<group>"; };
+		6AA86E782CA20D0F0057EA95 /* Holy Well.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Holy Well.jpg"; sourceTree = "<group>"; };
+		6AA86E7A2CA20DD00057EA95 /* Abbey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abbey.jpg; sourceTree = "<group>"; };
+		6AA86E7C2CA4483F0057EA95 /* AudioTourRoute.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioTourRoute.geojson; sourceTree = "<group>"; };
+		6AC2E2922CAD75EB006CF274 /* bluebird.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = bluebird.gpx; sourceTree = "<group>"; };
+		6AD344C12CA0908A00903CF0 /* BDC.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BDC.jpeg; sourceTree = "<group>"; };
+		6AD344C32CA0E62900903CF0 /* myIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myIcon.jpg; sourceTree = "<group>"; };
+		6AD344C52CA0E64D00903CF0 /* myIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myIcon.png; sourceTree = "<group>"; };
+		6AE1481F2CACE50E00C2C474 /* Glenroe-Ballyorgan_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glenroe-Ballyorgan_tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE148212CACE50E00C2C474 /* Glenroe_Ballyorgan_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glenroe_Ballyorgan_tests.swift; sourceTree = "<group>"; };
+		6AE148282CACE56C00C2C474 /* VoiceControlManager_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceControlManager_Tests.swift; sourceTree = "<group>"; };
+		6AE1482A2CACED0400C2C474 /* Glenroe-Ballyorgan_tests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Glenroe-Ballyorgan_tests.xctestplan"; sourceTree = "<group>"; };
+		6AE1482B2CAD51AE00C2C474 /* AudioLocation-Emly.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AudioLocation-Emly.gpx"; sourceTree = "<group>"; };
+		6AF085262C52C912006A8953 /* Glenroe-Ballyorgan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glenroe-Ballyorgan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF085292C52C912006A8953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AF0852B2C52C912006A8953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AF085302C52C912006A8953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AF085322C52C913006A8953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF085352C52C913006A8953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AF085372C52C913006A8953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFC63C72C9355DB00179DB4 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE1481C2CACE50E00C2C474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0779F42CAE06DB003AA2DF /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF085232C52C912006A8953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A82ED5C2C84FAE700B31C6E /* GoogleSignInSwift in Frameworks */,
+				6A82ED512C84F41900B31C6E /* FirebaseAnalytics in Frameworks */,
+				6A93002D2C8F4D96008D2A20 /* FirebaseAnalytics in Frameworks */,
+				6A93004F2C8F4D96008D2A20 /* FirebaseMessaging in Frameworks */,
+				6A6EC7A42C9471E900291292 /* MapboxMaps in Frameworks */,
+				6A9300452C8F4D96008D2A20 /* FirebaseFunctions in Frameworks */,
+				6A93002F2C8F4D96008D2A20 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				6A82ED5A2C84FAE700B31C6E /* GoogleSignIn in Frameworks */,
+				6A9300412C8F4D96008D2A20 /* FirebaseFirestore in Frameworks */,
+				6A93004D2C8F4D96008D2A20 /* FirebaseMLModelDownloader in Frameworks */,
+				6A82ED532C84F41900B31C6E /* FirebaseAuth in Frameworks */,
+				6A719B942C6180C500FD38C4 /* ARKit.framework in Frameworks */,
+				6A9300392C8F4D96008D2A20 /* FirebaseAuthCombine-Community in Frameworks */,
+				6A9300372C8F4D96008D2A20 /* FirebaseAuth in Frameworks */,
+				6A9300472C8F4D96008D2A20 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				6A9300512C8F4D96008D2A20 /* FirebasePerformance in Frameworks */,
+				6A93003B2C8F4D96008D2A20 /* FirebaseCrashlytics in Frameworks */,
+				6A9300572C8F4D96008D2A20 /* FirebaseStorageCombine-Community in Frameworks */,
+				6A9300432C8F4D96008D2A20 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				6A9300352C8F4D96008D2A20 /* FirebaseAppDistribution-Beta in Frameworks */,
+				6A93004B2C8F4D96008D2A20 /* FirebaseInstallations in Frameworks */,
+				6A9300532C8F4D96008D2A20 /* FirebaseRemoteConfig in Frameworks */,
+				6A9300332C8F4D96008D2A20 /* FirebaseAppCheck in Frameworks */,
+				6A9300552C8F4D96008D2A20 /* FirebaseStorage in Frameworks */,
+				6A93003D2C8F4D96008D2A20 /* FirebaseDatabase in Frameworks */,
+				6A9300592C8F4D96008D2A20 /* FirebaseVertexAI-Preview in Frameworks */,
+				6A9300312C8F4D96008D2A20 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				6A93003F2C8F4D96008D2A20 /* FirebaseDynamicLinks in Frameworks */,
+				6A9300492C8F4D96008D2A20 /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A27CAC52C5857970006AC47 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6A27CACA2C585E810006AC47 /* meow.mp3 */,
+				6A27CAC62C58585B0006AC47 /* test_audio.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		6A6510AC2C864698000C31ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6AA86E762CA20C300057EA95 /* graveyardGlenroe.jpg */,
+				6AA86E782CA20D0F0057EA95 /* Holy Well.jpg */,
+				6AA86E7A2CA20DD00057EA95 /* Abbey.jpg */,
+				6A28CDF92C9E25C400297558 /* Darragh Bridge.png */,
+				6A28CDF22C9CBA9500297558 /* Churches_image.png */,
+				6AA86E722CA208E30057EA95 /* Darragh Graveyard.jpg */,
+				6AA86E702CA207E40057EA95 /* darragh.jpg */,
+				6A28CDF32C9CBA9500297558 /* Graveyards_image.png */,
+				6AD344C12CA0908A00903CF0 /* BDC.jpeg */,
+				6AD344C32CA0E62900903CF0 /* myIcon.jpg */,
+				6AA86E742CA209990057EA95 /* Abbey Graveyard.jpeg */,
+				6AA86E6C2CA206120057EA95 /* Glenroechurch.jpg */,
+				6A28CDF42C9CBA9500297558 /* History_image.png */,
+				6A28CDF12C9CBA9500297558 /* Local_Sites_image.png */,
+				6AD344C52CA0E64D00903CF0 /* myIcon.png */,
+				6AA86E6E2CA206E20057EA95 /* Ballyorganchurch.jpg */,
+				6A6510AD2C864A33000C31ED /* history.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6A719B8F2C5FA92A00FD38C4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6A719B972C61831100FD38C4 /* AnnotationView.swift */,
+				6A37178E2CA812900060FD8D /* route.geojson */,
+				6AA86E7C2CA4483F0057EA95 /* AudioTourRoute.geojson */,
+				6A719B872C5ED70000FD38C4 /* StoryManager.swift */,
+				6A27CAC32C5853900006AC47 /* CustomTabBarController.swift */,
+				6AA1BAFC2C99F0BE00CC3B2D /* EventData.swift */,
+				6AA1BAFE2C99F0DF00CC3B2D /* EventCell.swift */,
+				6A28CDED2C9B310500297558 /* ContentImagesViewCell.swift */,
+				6A37178A2CA80D020060FD8D /* RouteManager.swift */,
+				6A3717932CA840C30060FD8D /* VoiceControlManager.swift */,
+				6A3717952CA8411A0060FD8D /* AudioTourViewController+UISetup.swift */,
+				6A3717972CA841450060FD8D /* FirebaseDownloadManager.swift */,
+				6A37179D2CA8555E0060FD8D /* ContentDetailsViewController+UISetup.swift */,
+				6A37179B2CA84D0A0060FD8D /* AudioLocationData.swift */,
+				6A37179F2CA856B80060FD8D /* BirdLocationData.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6A719B902C5FA9AD00FD38C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AFC63C72C9355DB00179DB4 /* UserInfoViewController.swift */,
+				6A719B7F2C5ECB9500FD38C4 /* MapViewController.swift */,
+				6A82ED182C84E0BA00B31C6E /* SignUpViewController.swift */,
+				6A82ED142C84E09500B31C6E /* LoginViewController.swift */,
+				6A719B832C5ED09500FD38C4 /* ContentLibraryViewController.swift */,
+				6A6EC79F2C946F1600291292 /* BallyhourAudioTourMapViewController.swift */,
+				6A82ED042C6BC56400B31C6E /* ARViewController.swift */,
+				6A6510AA2C86464D000C31ED /* ContentDetailsViewController.swift */,
+				6A6510AF2C8776EF000C31ED /* AudioTourViewController.swift */,
+				6AA1BB002C99F16200CC3B2D /* EventsViewController.swift */,
+				6AA1BB022C99F1CE00CC3B2D /* EventsWebViewController.swift */,
+				6A72A2182C9F797B00780BDB /* InteractiveExperienceViewController.swift */,
+				6A3717912CA836F50060FD8D /* BaseMapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A719B912C61802300FD38C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0779F32CAE06DB003AA2DF /* ARKit.framework */,
+				6A719B922C61802400FD38C4 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A719B9B2C61899500FD38C4 /* art.scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				6A28CDFF2C9E47A300297558 /* Barn_owl.usdz */,
+				6A28CE012C9E47B600297558 /* Barn_owl.scn */,
+				6A28CDFB2C9E358700297558 /* Robin.usdz */,
+				6A3717882CA594180060FD8D /* Robin.scn */,
+				6A28CE052C9E4D0400297558 /* Bird.usdz */,
+				6A3717862CA593A70060FD8D /* Bird.scn */,
+			);
+			path = art.scnassets;
+			sourceTree = "<group>";
+		};
+		6AE148202CACE50E00C2C474 /* Glenroe-Ballyorgan_tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0779FA2CAE2B08003AA2DF /* Glenroe-Ballyorgan-tests-Info.plist */,
+				6AE148212CACE50E00C2C474 /* Glenroe_Ballyorgan_tests.swift */,
+				6AE148282CACE56C00C2C474 /* VoiceControlManager_Tests.swift */,
+				6A0779F12CADFFD6003AA2DF /* ARViewController_tests.swift */,
+				6A0779F82CAE20FB003AA2DF /* AudioTourFunctions_tests.swift */,
+				6A0779FC2CAE47F6003AA2DF /* AppIntegration_tests.swift */,
+				6A7841EA2CAE4FCC0058FB6F /* FirebaseIntegratedTests.swift */,
+			);
+			path = "Glenroe-Ballyorgan_tests";
+			sourceTree = "<group>";
+		};
+		6AF0851D2C52C912006A8953 = {
+			isa = PBXGroup;
+			children = (
+				6AE1482A2CACED0400C2C474 /* Glenroe-Ballyorgan_tests.xctestplan */,
+				6A28CE0A2C9E539A00297558 /* birds of prey location-barn owl.gpx */,
+				6A0779EC2CAD81FD003AA2DF /* Robin.gpx */,
+				6AE1482B2CAD51AE00C2C474 /* AudioLocation-Emly.gpx */,
+				6A2115DE2CB0714E0088401D /* AudioLocation_welcome.gpx */,
+				6A2115E12CB071B90088401D /* Location_Bruff.gpx */,
+				6AC2E2922CAD75EB006CF274 /* bluebird.gpx */,
+				6A28CE092C9E50A300297558 /* Glenroe-Ballyorgan.xctestplan */,
+				6A6510AC2C864698000C31ED /* images */,
+				6AF085322C52C913006A8953 /* Assets.xcassets */,
+				6A719B9B2C61899500FD38C4 /* art.scnassets */,
+				6A719B902C5FA9AD00FD38C4 /* ViewControllers */,
+				6A719B8F2C5FA92A00FD38C4 /* Managers */,
+				6A27CAC52C5857970006AC47 /* Audio */,
+				6AF085282C52C912006A8953 /* Glenroe-Ballyorgan */,
+				6AE148202CACE50E00C2C474 /* Glenroe-Ballyorgan_tests */,
+				6AF085272C52C912006A8953 /* Products */,
+				6A719B912C61802300FD38C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF085272C52C912006A8953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF085262C52C912006A8953 /* Glenroe-Ballyorgan.app */,
+				6AE1481F2CACE50E00C2C474 /* Glenroe-Ballyorgan_tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF085282C52C912006A8953 /* Glenroe-Ballyorgan */ = {
+			isa = PBXGroup;
+			children = (
+				6AF085292C52C912006A8953 /* AppDelegate.swift */,
+				6AF0852B2C52C912006A8953 /* SceneDelegate.swift */,
+				6AF0852F2C52C912006A8953 /* Main.storyboard */,
+				6A82ED562C84F98E00B31C6E /* GoogleService-Info.plist */,
+				6AF085342C52C913006A8953 /* LaunchScreen.storyboard */,
+				6AF085372C52C913006A8953 /* Info.plist */,
+			);
+			path = "Glenroe-Ballyorgan";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AE1481E2CACE50E00C2C474 /* Glenroe-Ballyorgan_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE148272CACE50E00C2C474 /* Build configuration list for PBXNativeTarget "Glenroe-Ballyorgan_tests" */;
+			buildPhases = (
+				6AE1481B2CACE50E00C2C474 /* Sources */,
+				6AE1481C2CACE50E00C2C474 /* Frameworks */,
+				6AE1481D2CACE50E00C2C474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE148242CACE50E00C2C474 /* PBXTargetDependency */,
+			);
+			name = "Glenroe-Ballyorgan_tests";
+			productName = "Glenroe-Ballyorgan_tests";
+			productReference = 6AE1481F2CACE50E00C2C474 /* Glenroe-Ballyorgan_tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AF085252C52C912006A8953 /* Glenroe-Ballyorgan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF085502C52C913006A8953 /* Build configuration list for PBXNativeTarget "Glenroe-Ballyorgan" */;
+			buildPhases = (
+				6AF085222C52C912006A8953 /* Sources */,
+				6AF085232C52C912006A8953 /* Frameworks */,
+				6AF085242C52C912006A8953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glenroe-Ballyorgan";
+			packageProductDependencies = (
+				6A82ED502C84F41900B31C6E /* FirebaseAnalytics */,
+				6A82ED522C84F41900B31C6E /* FirebaseAuth */,
+				6A82ED592C84FAE700B31C6E /* GoogleSignIn */,
+				6A82ED5B2C84FAE700B31C6E /* GoogleSignInSwift */,
+				6A93002C2C8F4D96008D2A20 /* FirebaseAnalytics */,
+				6A93002E2C8F4D96008D2A20 /* FirebaseAnalyticsOnDeviceConversion */,
+				6A9300302C8F4D96008D2A20 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				6A9300322C8F4D96008D2A20 /* FirebaseAppCheck */,
+				6A9300342C8F4D96008D2A20 /* FirebaseAppDistribution-Beta */,
+				6A9300362C8F4D96008D2A20 /* FirebaseAuth */,
+				6A9300382C8F4D96008D2A20 /* FirebaseAuthCombine-Community */,
+				6A93003A2C8F4D96008D2A20 /* FirebaseCrashlytics */,
+				6A93003C2C8F4D96008D2A20 /* FirebaseDatabase */,
+				6A93003E2C8F4D96008D2A20 /* FirebaseDynamicLinks */,
+				6A9300402C8F4D96008D2A20 /* FirebaseFirestore */,
+				6A9300422C8F4D96008D2A20 /* FirebaseFirestoreCombine-Community */,
+				6A9300442C8F4D96008D2A20 /* FirebaseFunctions */,
+				6A9300462C8F4D96008D2A20 /* FirebaseFunctionsCombine-Community */,
+				6A9300482C8F4D96008D2A20 /* FirebaseInAppMessaging-Beta */,
+				6A93004A2C8F4D96008D2A20 /* FirebaseInstallations */,
+				6A93004C2C8F4D96008D2A20 /* FirebaseMLModelDownloader */,
+				6A93004E2C8F4D96008D2A20 /* FirebaseMessaging */,
+				6A9300502C8F4D96008D2A20 /* FirebasePerformance */,
+				6A9300522C8F4D96008D2A20 /* FirebaseRemoteConfig */,
+				6A9300542C8F4D96008D2A20 /* FirebaseStorage */,
+				6A9300562C8F4D96008D2A20 /* FirebaseStorageCombine-Community */,
+				6A9300582C8F4D96008D2A20 /* FirebaseVertexAI-Preview */,
+				6A6EC7A32C9471E900291292 /* MapboxMaps */,
+			);
+			productName = "Glenroe-Ballyorgan";
+			productReference = 6AF085262C52C912006A8953 /* Glenroe-Ballyorgan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF0851E2C52C912006A8953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6AE1481E2CACE50E00C2C474 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AF085252C52C912006A8953;
+					};
+					6AF085252C52C912006A8953 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6AF085212C52C912006A8953 /* Build configuration list for PBXProject "Glenroe-Ballyorgan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF0851D2C52C912006A8953;
+			packageReferences = (
+				6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6A82ED582C84FAE700B31C6E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				6A6EC79A2C946E4F00291292 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
+			productRefGroup = 6AF085272C52C912006A8953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF085252C52C912006A8953 /* Glenroe-Ballyorgan */,
+				6AE1481E2CACE50E00C2C474 /* Glenroe-Ballyorgan_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AE1481D2CACE50E00C2C474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0779F72CAE0D76003AA2DF /* Bird.scn in Resources */,
+				6A0779F52CAE0D6F003AA2DF /* Barn_owl.scn in Resources */,
+				6A0779F62CAE0D73003AA2DF /* Robin.scn in Resources */,
+				6A0779FB2CAE3E50003AA2DF /* test_audio.wav in Resources */,
+				6A2115E02CB0714E0088401D /* AudioLocation_welcome.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF085242C52C912006A8953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA86E6D2CA206120057EA95 /* Glenroechurch.jpg in Resources */,
+				6AA86E712CA207E40057EA95 /* darragh.jpg in Resources */,
+				6AE1482C2CAD51AE00C2C474 /* AudioLocation-Emly.gpx in Resources */,
+				6A28CDF72C9CBA9500297558 /* Graveyards_image.png in Resources */,
+				6A3717902CA832DE0060FD8D /* AudioTourRoute.geojson in Resources */,
+				6AA86E6F2CA206E20057EA95 /* Ballyorganchurch.jpg in Resources */,
+				6A28CDF62C9CBA9500297558 /* Churches_image.png in Resources */,
+				6A82ED572C84F98E00B31C6E /* GoogleService-Info.plist in Resources */,
+				6AA86E732CA208E30057EA95 /* Darragh Graveyard.jpg in Resources */,
+				6A2115DF2CB0714E0088401D /* AudioLocation_welcome.gpx in Resources */,
+				6A37178F2CA827AF0060FD8D /* route.geojson in Resources */,
+				6A3717872CA593A70060FD8D /* Bird.scn in Resources */,
+				6AD344C42CA0E62900903CF0 /* myIcon.jpg in Resources */,
+				6A6510AE2C864A33000C31ED /* history.jpg in Resources */,
+				6AC2E2932CAD75EB006CF274 /* bluebird.gpx in Resources */,
+				6A28CE002C9E47A300297558 /* Barn_owl.usdz in Resources */,
+				6A28CDFC2C9E358700297558 /* Robin.usdz in Resources */,
+				6AD344C22CA0908A00903CF0 /* BDC.jpeg in Resources */,
+				6A28CDF82C9CBA9500297558 /* History_image.png in Resources */,
+				6A28CDF52C9CBA9500297558 /* Local_Sites_image.png in Resources */,
+				6A27CACB2C585E810006AC47 /* meow.mp3 in Resources */,
+				6AF085362C52C913006A8953 /* LaunchScreen.storyboard in Resources */,
+				6A28CE022C9E47B600297558 /* Barn_owl.scn in Resources */,
+				6AA86E792CA20D0F0057EA95 /* Holy Well.jpg in Resources */,
+				6AA86E772CA20C300057EA95 /* graveyardGlenroe.jpg in Resources */,
+				6A28CDFA2C9E25C400297558 /* Darragh Bridge.png in Resources */,
+				6AA86E752CA209990057EA95 /* Abbey Graveyard.jpeg in Resources */,
+				6A27CAC72C58585B0006AC47 /* test_audio.wav in Resources */,
+				6AD344C62CA0E64D00903CF0 /* myIcon.png in Resources */,
+				6A3717892CA594180060FD8D /* Robin.scn in Resources */,
+				6AF085332C52C913006A8953 /* Assets.xcassets in Resources */,
+				6A0779ED2CAD81FD003AA2DF /* Robin.gpx in Resources */,
+				6AA86E7B2CA20DD00057EA95 /* Abbey.jpg in Resources */,
+				6A28CE062C9E4D0400297558 /* Bird.usdz in Resources */,
+				6AF085312C52C912006A8953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE1481B2CACE50E00C2C474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0779FD2CAE47F6003AA2DF /* AppIntegration_tests.swift in Sources */,
+				6A0779F92CAE20FB003AA2DF /* AudioTourFunctions_tests.swift in Sources */,
+				6A0779F22CADFFD6003AA2DF /* ARViewController_tests.swift in Sources */,
+				6AE148222CACE50E00C2C474 /* Glenroe_Ballyorgan_tests.swift in Sources */,
+				6AE148292CACE56C00C2C474 /* VoiceControlManager_Tests.swift in Sources */,
+				6A7841EB2CAE4FCC0058FB6F /* FirebaseIntegratedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF085222C52C912006A8953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3717A02CA856B80060FD8D /* BirdLocationData.swift in Sources */,
+				6AA1BAFD2C99F0BE00CC3B2D /* EventData.swift in Sources */,
+				6A82ED052C6BC56400B31C6E /* ARViewController.swift in Sources */,
+				6A719B802C5ECB9500FD38C4 /* MapViewController.swift in Sources */,
+				6A6510AB2C86464D000C31ED /* ContentDetailsViewController.swift in Sources */,
+				6AA1BB032C99F1CE00CC3B2D /* EventsWebViewController.swift in Sources */,
+				6A719B982C61831100FD38C4 /* AnnotationView.swift in Sources */,
+				6A3717962CA8411A0060FD8D /* AudioTourViewController+UISetup.swift in Sources */,
+				6AF0852A2C52C912006A8953 /* AppDelegate.swift in Sources */,
+				6A72A2192C9F797B00780BDB /* InteractiveExperienceViewController.swift in Sources */,
+				6AA1BAFF2C99F0DF00CC3B2D /* EventCell.swift in Sources */,
+				6AA1BB012C99F16200CC3B2D /* EventsViewController.swift in Sources */,
+				6AFC63C82C9355DB00179DB4 /* UserInfoViewController.swift in Sources */,
+				6A82ED192C84E0BA00B31C6E /* SignUpViewController.swift in Sources */,
+				6AF0852C2C52C912006A8953 /* SceneDelegate.swift in Sources */,
+				6A28CDEE2C9B310500297558 /* ContentImagesViewCell.swift in Sources */,
+				6A37179C2CA84D0A0060FD8D /* AudioLocationData.swift in Sources */,
+				6A3717982CA841450060FD8D /* FirebaseDownloadManager.swift in Sources */,
+				6A719B842C5ED09500FD38C4 /* ContentLibraryViewController.swift in Sources */,
+				6A37179E2CA8555E0060FD8D /* ContentDetailsViewController+UISetup.swift in Sources */,
+				6A3717942CA840C30060FD8D /* VoiceControlManager.swift in Sources */,
+				6A719B882C5ED70000FD38C4 /* StoryManager.swift in Sources */,
+				6A3717922CA836F50060FD8D /* BaseMapViewController.swift in Sources */,
+				6A37178B2CA80D020060FD8D /* RouteManager.swift in Sources */,
+				6A6510B02C8776EF000C31ED /* AudioTourViewController.swift in Sources */,
+				6A27CAC42C5853900006AC47 /* CustomTabBarController.swift in Sources */,
+				6A82ED152C84E09500B31C6E /* LoginViewController.swift in Sources */,
+				6A6EC7A02C946F1600291292 /* BallyhourAudioTourMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AE148242CACE50E00C2C474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF085252C52C912006A8953 /* Glenroe-Ballyorgan */;
+			targetProxy = 6AE148232CACE50E00C2C474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AF0852F2C52C912006A8953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF085302C52C912006A8953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AF085342C52C913006A8953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF085352C52C913006A8953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AE148252CACE50E00C2C474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glenroe-Ballyorgan-tests-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to have AR function working";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LiyaW.Glenroe-Ballyorgan-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glenroe-Ballyorgan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glenroe-Ballyorgan";
+			};
+			name = Debug;
+		};
+		6AE148262CACE50E00C2C474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glenroe-Ballyorgan-tests-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to have AR function working";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LiyaW.Glenroe-Ballyorgan-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glenroe-Ballyorgan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glenroe-Ballyorgan";
+			};
+			name = Release;
+		};
+		6AF0854E2C52C913006A8953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AF0854F2C52C913006A8953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF085512C52C913006A8953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glenroe-Ballyorgan/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to have AR function working";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to your speech to provide interactive experiences.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LiyaW.Glenroe-Ballyorgan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF085522C52C913006A8953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MTQ4N23JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glenroe-Ballyorgan/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera to have AR function working";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to trigger audio playback based on your current position.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to your speech to provide interactive experiences.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LiyaW.Glenroe-Ballyorgan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AE148272CACE50E00C2C474 /* Build configuration list for PBXNativeTarget "Glenroe-Ballyorgan_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE148252CACE50E00C2C474 /* Debug */,
+				6AE148262CACE50E00C2C474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF085212C52C912006A8953 /* Build configuration list for PBXProject "Glenroe-Ballyorgan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF0854E2C52C913006A8953 /* Debug */,
+				6AF0854F2C52C913006A8953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF085502C52C913006A8953 /* Build configuration list for PBXNativeTarget "Glenroe-Ballyorgan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF085512C52C913006A8953 /* Debug */,
+				6AF085522C52C913006A8953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A6EC79A2C946E4F00291292 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+		6A82ED582C84FAE700B31C6E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A6EC7A32C9471E900291292 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6EC79A2C946E4F00291292 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		6A82ED502C84F41900B31C6E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6A82ED522C84F41900B31C6E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6A82ED592C84FAE700B31C6E /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED582C84FAE700B31C6E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		6A82ED5B2C84FAE700B31C6E /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED582C84FAE700B31C6E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		6A93002C2C8F4D96008D2A20 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6A93002E2C8F4D96008D2A20 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		6A9300302C8F4D96008D2A20 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		6A9300322C8F4D96008D2A20 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		6A9300342C8F4D96008D2A20 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		6A9300362C8F4D96008D2A20 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6A9300382C8F4D96008D2A20 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		6A93003A2C8F4D96008D2A20 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		6A93003C2C8F4D96008D2A20 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		6A93003E2C8F4D96008D2A20 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		6A9300402C8F4D96008D2A20 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6A9300422C8F4D96008D2A20 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		6A9300442C8F4D96008D2A20 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		6A9300462C8F4D96008D2A20 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		6A9300482C8F4D96008D2A20 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		6A93004A2C8F4D96008D2A20 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		6A93004C2C8F4D96008D2A20 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		6A93004E2C8F4D96008D2A20 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		6A9300502C8F4D96008D2A20 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		6A9300522C8F4D96008D2A20 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		6A9300542C8F4D96008D2A20 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		6A9300562C8F4D96008D2A20 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		6A9300582C8F4D96008D2A20 /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A82ED4F2C84F41900B31C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6AF0851E2C52C912006A8953 /* Project object */;
+}

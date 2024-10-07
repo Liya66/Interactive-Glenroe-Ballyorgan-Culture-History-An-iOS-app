@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "12DD0340-D471-4F0D-B4D7-C220EFF8FAC3",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Glenroe-Ballyorgan.xcodeproj",
+          "identifier" : "6AE1481E2CACE50E00C2C474",
+          "name" : "Glenroe-Ballyorgan_tests"
+        }
+      ]
+    },
+    "locationScenario" : {
+      "identifier" : "..\/..\/Robin.gpx"
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Glenroe-Ballyorgan.xcodeproj",
+      "identifier" : "6AE1481E2CACE50E00C2C474",
+      "name" : "Glenroe-Ballyorgan_tests"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

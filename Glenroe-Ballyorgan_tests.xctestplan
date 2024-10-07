@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "AEDF4306-182F-49F8-8B3B-DF2A96ECE841",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Glenroe-Ballyorgan.xcodeproj",
+          "identifier" : "6AF085252C52C912006A8953",
+          "name" : "Glenroe-Ballyorgan"
+        }
+      ]
+    },
+    "preferredScreenCaptureFormat" : "screenshot",
+    "userAttachmentLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Glenroe-Ballyorgan.xcodeproj",
+        "identifier" : "6AE1481E2CACE50E00C2C474",
+        "name" : "Glenroe-Ballyorgan_tests"
+      }
+    }
+  ],
+  "version" : 1
+}
